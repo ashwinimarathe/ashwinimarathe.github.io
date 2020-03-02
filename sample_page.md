@@ -34,7 +34,7 @@ curl -X GET "https://api.spotify.com/v1/artists/0OdUWJ0sBjDrqHygGUXeCF" -H "Auth
 
 I created a RShiny app to visualize different features of data. The RShiny app is hosted [here](https://ashwinimarathe.shinyapps.io/musicvisualization/)
 
-<img src="images/rshiny.jpg?raw=true"/>
+<img src="images/rshiny.png?raw=true"/>
 
 ### 4. Model
 
