@@ -4,28 +4,40 @@
 
 ### 1. Data Collection method
 
-To do this analysis I collected data from the Spotify web-developer [API](https://developer.spotify.com/)
+To do this analysis I collected data from the [Spotify web-developer API](https://developer.spotify.com/) Spotify has a lot of data, but has rate cap on the APIs which is 10k for almost all APIs. This restricts the data collection and might introduce some bias as we are not aware which 10k song entries the API fetches. To mitigate this, I selected random genres and downloaded songs from last year. Using the Spotify API is relatively straightforward, however the time I soent in data collection was huge. So the repository has a csv of the data I collected and can be used to avoid all the tedious process of data collection.
 
 ```javascript
-if (isAwesome){
-  return true
+fetch("https://api.spotify.com/v1/audio-analysis/6EJiVf7U0p1BBfs0qqeb1f", {
+  method: "GET",
+  headers: {
+    Authorization: `Bearer ${userAccessToken}`     
+  }
+})
+.then(response => response.json())
+.then(({beats})) => {
+  beats.forEach((beat, index) => {
+    console.log(`Beat ${index} starts at ${beat.start}`);
+  })
 }
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### 2. Data Features
+
+Spotify provides music related features for all songs on it's platform. These features include *acousticness*, *danceability*, *energy* and 11 more. I also wanted to analyze the effect of artist popularity and hence for artist's of all songs I collected information regarding the artist's popularity.
 
 ```javascript
-if (isAwesome){
-  return true
+curl -X GET "https://api.spotify.com/v1/artists/0OdUWJ0sBjDrqHygGUXeCF" -H "Authorization: Bearer {your access token}"
 }
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Data Visualization
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+I created a RShiny app to visualize different features of data. The RShiny app is hosted [here](https://ashwinimarathe.shinyapps.io/musicvisualization/)
 
-### 4. Provide a basis for further data collection through surveys or experiments
+<img src="images/rshiny.jpg?raw=true"/>
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### 4. Model
+
+I trained two models on the data, a logitic regression model to make inferences about the features affecting the popularity of songs. I also trained a Random Forest model and achieved accuracy of 95%. The notebook for modelling can be found [here](https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
