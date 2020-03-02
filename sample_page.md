@@ -1,4 +1,4 @@
-## This can be your internal website page / project page
+## Song Popularity Prediction
 
 **Project description:** This project aims to understand the features that hit songs have in common. In particular, I was interested in knowing if a song’s artist, the genre of the song and, its other musical features like danceability, energy, loudness among others can help distinguish hit and non-hit songs. To achieve this, I trained a logitistic regression model and compared the results of this model with the non-parametric classification method, random forests. Since the logistic regression model is more interpretable, I have drawn inferences from it. From the model, it can inferred that the popularity of a song’s artist and the song genre does highly influence the odds of a song getting hit. Another influential music feature is danceability. Songs that are more danceable have higher odds of becoming hit.
 
@@ -40,4 +40,3 @@ I created a RShiny app to visualize different features of data. The RShiny app i
 
 I trained two models on the data, a logitic regression model to make inferences about the features affecting the popularity of songs. I also trained a Random Forest model and achieved accuracy of 95%. The notebook for modelling can be found [here](https://github.com/ashwinimarathe/Spotify-Song-Popularity-Prediction)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
