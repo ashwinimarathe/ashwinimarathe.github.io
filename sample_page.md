@@ -1,10 +1,10 @@
 ## This can be your internal website page / project page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This project aims to understand the features that hit songs have in common. In particular, I was interested in knowing if a song’s artist, the genre of the song and, its other musical features like danceability, energy, loudness among others can help distinguish hit and non-hit songs. To achieve this, I trained a logitistic regression model and compared the results of this model with the non-parametric classification method, random forests. Since the logistic regression model is more interpretable, I have drawn inferences from it. From the model, it can inferred that the popularity of a song’s artist and the song genre does highly influence the odds of a song getting hit. Another influential music feature is danceability. Songs that are more danceable have higher odds of becoming hit.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Data Collection method
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+To do this analysis I collected data from the Spotify web-developer [API](https://developer.spotify.com/)
 
 ```javascript
 if (isAwesome){
