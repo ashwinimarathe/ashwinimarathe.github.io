@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name 1 
+### Course Projects
 
 [Spotify Song Popularity Prediction](/sample_page)
 <img src="images/spotify-909238494.jpg?raw=true"/>
