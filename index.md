@@ -8,8 +8,8 @@
 <img src="images/spotify-909238494.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Project 2 Title](/comment_classification)
+<img src="images/cover.jpeg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
