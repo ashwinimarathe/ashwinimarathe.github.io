@@ -2,7 +2,7 @@
 
 **Project description:** This project aims to detect different types of of toxicity like threats, obscenity, insults, and identity-based hate on online platforms. The dataset of comments comes from Wikipedia’s talk page edits. The methods discussed in this project will hopefully help online discussion become more productive and respectful.
 
-*Disclaimer: the dataset for this competition contains text that may be considered profane, vulgar, or offensive.*
+*Disclaimer: the dataset for this project contains text that may be considered profane, vulgar, or offensive.*
 
 ### 1. Data Set
 
