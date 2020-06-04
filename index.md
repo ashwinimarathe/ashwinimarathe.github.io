@@ -8,7 +8,7 @@
 <img src="images/spotify-909238494.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/comment_classification.md)
+[Toxic Comment Classification](/comment_classification.md)
 <img src="images/cover.jpeg?raw=true"/>
 
 ---
