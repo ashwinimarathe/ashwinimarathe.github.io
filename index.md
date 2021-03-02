@@ -1,35 +1,6 @@
 ## Portfolio
 
----
-
-### Course Projects
-
-[Spotify Song Popularity Prediction](/sample_page)
-<img src="images/spotify-909238494.jpg?raw=true"/>
-
----
-[Toxic Comment Classification](/comment_classification.md)
-<img src="images/cover.jpeg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
----
+Thank you for visiting!
+I have moved my portfolio [here](https://ashwinimarathe.netlify.app/)
 
 
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
